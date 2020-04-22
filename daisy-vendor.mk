@@ -57,8 +57,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib/libqti-perfd-client_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-perfd-client_system.so \
     vendor/xiaomi/daisy/proprietary/lib/libqti-util_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-util_system.so \
     vendor/xiaomi/daisy/proprietary/lib/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti_performance.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
+    vendor/xiaomi/daisy/proprietary/lib/android.frameworks.sensorservice@1.0-v27.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.frameworks.sensorservice@1.0-v27.so \
+    vendor/xiaomi/daisy/proprietary/lib/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@1.0.so \
+    vendor/xiaomi/daisy/proprietary/lib/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.gnss@1.0.so \
+    vendor/xiaomi/daisy/proprietary/lib/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.0.so \
+    vendor/xiaomi/daisy/proprietary/lib/libexif.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libexif.so \
+    vendor/xiaomi/daisy/proprietary/lib/libft2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libft2.so \
+    vendor/xiaomi/daisy/proprietary/lib/libhardware_legacy.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhardware_legacy.so \
+    vendor/xiaomi/daisy/proprietary/lib/libheif.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libheif.so \
+    vendor/xiaomi/daisy/proprietary/lib/libicuuc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libicuuc.so \
+    vendor/xiaomi/daisy/proprietary/lib/libjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjpeg.so \
+    vendor/xiaomi/daisy/proprietary/lib/libmiracastsystem.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmiracastsystem.so \
+    vendor/xiaomi/daisy/proprietary/lib/libstdc++.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstdc++.so \
+    vendor/xiaomi/daisy/proprietary/lib/libtinyxml2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyxml2.so \
+    vendor/xiaomi/daisy/proprietary/lib/libxml2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxml2.so \
+    vendor/xiaomi/daisy/proprietary/lib/libyuv.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libyuv.so \
     vendor/xiaomi/daisy/proprietary/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdavenhancements.so \
     vendor/xiaomi/daisy/proprietary/lib/libwfdcodecv4l2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcodecv4l2.so \
     vendor/xiaomi/daisy/proprietary/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfdcommonutils.so \
@@ -96,6 +109,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
+    vendor/xiaomi/daisy/proprietary/lib64/android.frameworks.sensorservice@1.0-v27.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.frameworks.sensorservice@1.0-v27.so \
+    vendor/xiaomi/daisy/proprietary/lib64/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.camera.device@1.0.so \
+    vendor/xiaomi/daisy/proprietary/lib64/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.gnss@1.0.so \
+    vendor/xiaomi/daisy/proprietary/lib64/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.0.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libclang_rt.ubsan_standalone-aarch64-android.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libclang_rt.ubsan_standalone-aarch64-android.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libexif.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexif.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libft2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libft2.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libhardware_legacy.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhardware_legacy.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libheif.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libheif.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libicuuc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libicuuc.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjpeg.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libmiracastsystem.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmiracastsystem.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libstdc++.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstdc++.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libtinyxml2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtinyxml2.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libxml2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxml2.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libyuv.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libyuv.so \
     vendor/xiaomi/daisy/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/xiaomi/daisy/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/xiaomi/daisy/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
@@ -131,6 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
     vendor/xiaomi/daisy/proprietary/product/framework/vendor.qti.latency-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.latency-V2.0-java.jar \
     vendor/xiaomi/daisy/proprietary/product/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar \
+    vendor/xiaomi/daisy/proprietary/product/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib/lib-imscamera.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imscamera.so \
     vendor/xiaomi/daisy/proprietary/product/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvideocodec.so \
     vendor/xiaomi/daisy/proprietary/product/lib/lib-imsvt.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvt.so \
@@ -397,6 +427,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/daisy/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/xiaomi/daisy/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
@@ -2723,6 +2755,41 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/lib-imsSDP.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libOmxCore.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libaudioutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libbinder.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libc++.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libc++.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libc.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libcld80211.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libcld80211.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libcne.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libcneoplookup.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libcutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libdl.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libdl.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libhidlbase.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libjson.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libjson.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/liblog.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/liblog.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libm.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libm.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libqdMetaData.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libqservice.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libqti_vndfwk_detect.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libril.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/librilutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/librmnetctl.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/librmnetctl.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libsdmutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libstagefright_omx.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libstagefright_omx.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libutils.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/libwpa_client.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libbundlewrapper.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libdownmix.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libdynproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libeffectproxy.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libldnhncr.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libqcomvisualizer.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libqcomvoiceprocessing.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libreverbwrapper.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/soundfx/libvisualizer.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
@@ -2730,6 +2797,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libdseffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdseffect.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/vendor.display.config@1.0.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
@@ -2821,6 +2891,28 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/lib-imsSDP.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libOmxCore.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libaudioutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libbinder.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libc++.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libc++.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libc.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libcld80211.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libcld80211.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libcutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libhidlbase.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libjson.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libjson.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/liblog.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/liblog.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libm.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libm.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libmmosal_proprietary.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libqdMetaData.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libqservice.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libril.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/librilutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/librmnetctl.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/librmnetctl.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libsdmutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libutils.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libutils.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libwpa_client.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/vendor.display.config@1.0.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.slm@1.0.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
@@ -3055,6 +3147,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libbundlewrapper.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libdownmix.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libdynproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libeffectproxy.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libldnhncr.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libqcompostprocbundle.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libqcomvisualizer.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libqcomvoiceprocessing.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libreverbwrapper.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libvisualizer.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
