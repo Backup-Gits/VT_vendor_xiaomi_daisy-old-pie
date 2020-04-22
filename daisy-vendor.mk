@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib/libft2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libft2.so \
     vendor/xiaomi/daisy/proprietary/lib/libhardware_legacy.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhardware_legacy.so \
     vendor/xiaomi/daisy/proprietary/lib/libheif.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libheif.so \
-    vendor/xiaomi/daisy/proprietary/lib/libicuuc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libicuuc.so \
     vendor/xiaomi/daisy/proprietary/lib/libjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjpeg.so \
     vendor/xiaomi/daisy/proprietary/lib/libmiracastsystem.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmiracastsystem.so \
     vendor/xiaomi/daisy/proprietary/lib/libstdc++.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstdc++.so \
@@ -118,7 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib64/libft2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libft2.so \
     vendor/xiaomi/daisy/proprietary/lib64/libhardware_legacy.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhardware_legacy.so \
     vendor/xiaomi/daisy/proprietary/lib64/libheif.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libheif.so \
-    vendor/xiaomi/daisy/proprietary/lib64/libicuuc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libicuuc.so \
     vendor/xiaomi/daisy/proprietary/lib64/libjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjpeg.so \
     vendor/xiaomi/daisy/proprietary/lib64/libmiracastsystem.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmiracastsystem.so \
     vendor/xiaomi/daisy/proprietary/lib64/libstdc++.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstdc++.so \
@@ -214,6 +212,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/product/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.sigma_miracast@1.0.so \
     vendor/xiaomi/daisy/proprietary/product/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
+    vendor/xiaomi/daisy/proprietary/product/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/xiaomi/daisy/proprietary/lib64/libseemore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libseemore.so \
     vendor/xiaomi/daisy/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/xiaomi/daisy/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
